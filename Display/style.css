@@ -1,0 +1,57 @@
+header{
+   /* border: 3px solid red; */
+}
+
+
+
+h1{
+    /* border: 3px solid red; */
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+
+}
+
+
+
+
+main{
+   /* border: 3px solid red; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 25px;
+}
+
+
+p{
+   
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+
+b{
+    /* background-color: red; */
+    width: 500px;
+    display: inline-block;
+    text-decoration: black;
+}
+
+.bloco2{
+   /* border: 3px solid blue; */
+}
+
+
+footer{
+   /* border: 3px solid red; */
+    margin-top: 25px;
+}
+
+footer h2{
+   /* border: 3px solid red; */
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+}
