@@ -253,13 +253,202 @@ p {
     background-color: #555;
 }
 
+/* Estilos específicos para a página de Suporte */
+.support {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.support h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.support p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Estilos para a seção 'Perguntas Frequentes' */
+.faq {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.faq h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.faq li {
+    background-color: #f9f9f9;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.faq h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.faq p {
+    font-size: 16px;
+    color: #666;
+    cursor: pointer;
+}
+
+.faq p:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilos para a seção 'Entre em Contato' */
+.contact-support {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-support h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-support p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.contact-support form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.contact-support label {
+    text-align: left;
+    font-weight: bold;
+}
+
+.contact-support input[type="text"],
+.contact-support input[type="email"],
+.contact-support textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact-support textarea {
+    resize: none; /* Desabilita o redimensionamento */
+}
+
+.contact-support button {
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-support button:hover {
+    background-color: #555;
+}
+
 /* Estilo do formulário do mobile */
 @media (max-width: 768px) {
-    .contact {
-        padding: 15px;
+    .contact, .support, .faq, .contact-support {
+        padding: 30px 15px;
     }
 
-    .contact form {
+    .contact-support form {
         padding: 15px;
     }
+}
+
+/* Estilos específicos para a página de Desenvolvimento */
+.projects {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.projects h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.project {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.project h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.project p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 15px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.project a:hover {
+    background-color: #e0e0e0;
+    color: blue;
 }

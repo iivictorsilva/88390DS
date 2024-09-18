@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Página de suporte com informações e formulário de contato. Encontre respostas para perguntas frequentes e entre em contato com nossa equipe.">
+    <title>Suporte</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Cabeçalho e Navegação -->
     <header>
         <nav>
             <ul class="menu">
@@ -16,19 +18,65 @@
                     <ul class="dropdown-content">
                         <li><a href="consultoria.html">Consultoria</a></li>
                         <li><a href="suporte.html">Suporte</a></li>
-                        <li><a href="desenvolvimento.html">Desenvolvimento</a></li>
+                        <li><a href="desenvolvimento.html">Desenvolvimentos</a></li>
                     </ul>
-                </li> 
-
+                </li>
                 <li><a href="sobre.html">Sobre</a></li>
                 <li><a href="contato.html">Contato</a></li>
-            </ul> 
+            </ul>
         </nav>
     </header>
+    
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção Suporte -->
+        <section class="support">
+            <h1>Suporte</h1>
+            <p>Estamos aqui para ajudar! Se você tiver alguma dúvida ou precisar de assistência, você pode encontrar respostas para as perguntas mais frequentes abaixo ou entrar em contato diretamente com nossa equipe.</p>
+        </section>
 
-        <footer>
-            <p>&copy; 2024 - Todos os direitos reservados.</p>
-        </footer>
-   
+        <!-- Seção Perguntas Frequentes -->
+        <section class="faq">
+            <h2>Perguntas Frequentes</h2>
+            
+            <ul>
+                <li>
+                    <h3>Como posso redefinir minha senha?</h3>
+                    <p>Para redefinir sua senha, vá para a página de login e clique em "Esqueci minha senha". Siga as instruções enviadas para seu e-mail para criar uma nova senha.</p>
+                </li>
+                <li>
+                    <h3>Qual é o horário de atendimento?</h3>
+                    <p>Nosso horário de atendimento é de segunda a sexta-feira, das 9h às 18h. Estamos disponíveis para ajudar você durante esse período.</p>
+                </li>
+                <li>
+                    <h3>Como posso atualizar minhas informações de conta?</h3>
+                    <p>Você pode atualizar suas informações de conta acessando o painel de configurações na sua área de usuário e fazendo as alterações necessárias.</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Seção Entre em Contato -->
+        <section class="contact-support">
+            <h2>Entre em Contato</h2>
+            <p>Se você ainda tiver dúvidas ou precisar de assistência personalizada, preencha o formulário abaixo e nossa equipe entrará em contato com você o mais breve possível.</p>
+            <form action="envio-formulario.html" method="post">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
